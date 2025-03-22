@@ -1,0 +1,44 @@
+body {
+    font-family: arial;
+    background-color: #171934;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.center-box {
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.button {
+    cursor: pointer;
+    border: 1px solid rgb(255 255 255/50%);
+    color: #fff;
+    border-radius: 15px;
+    font-size: 55px;
+}
+
+.button .text {
+    font-size: 20px;
+}
+
+.op, #wxArrow {
+    display: block!important;
+    color: rgb(255 255 255/50%);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    body {
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
+        left: 100%;
+    }
+}
