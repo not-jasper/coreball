@@ -749,7 +749,7 @@
             w = document.getElementById("wxArrow"),
             x = r.getContext("2d"),
             y = 60,
-            z = "level",
+            z = "core-ball-level",
             A = "",
             B = "",
             C = m(s),
