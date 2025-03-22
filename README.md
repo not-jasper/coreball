@@ -1,2 +1,2 @@
 # CORE BALL
-Code taken from https://cpstest.click/en/coreball/
+Code taken from https://cpstest.click/en/coreball
